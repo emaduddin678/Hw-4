@@ -30,5 +30,20 @@ console.log(newArr)
 const maxValue = trr.reduce(function(prev,curr){
     return Math.max(prev, curr)
 }, 0)
-
 console.log(maxValue);
+
+
+const minValue = trr.reduce(function(prev,curr){
+    return Math.min(prev, curr)
+})
+console.log(minValue);
+
+function sumation(array){
+    let sum = 0;
+    for(let a of array){
+        sum += a;
+    }
+    console.log(sum)    
+}
+sumation(trr)
+
