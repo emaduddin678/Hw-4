@@ -87,15 +87,20 @@ document.body.appendChild(para);
         // This is 5th creation of p tag with easiest way  
 const divTag5 = document.createElement("div");
 const pTag5 = document.createElement("h1");
+const btn = document.createElement("button");
 
 pTag5.innerText = "New div with text";
-divTag5.appendChild(pTag5)
+btn.innerText =  "Click me to change the color of Background";
+
 document.body.appendChild(divTag5);
-
-
-const btn = document.createElement("button");
-btn.innerText =  "Click me";
+divTag5.appendChild(pTag5);
 divTag5.appendChild(btn);
+btn.setAttribute("onclick", "myFunction();");
+
+function myFunction() {
+        divTag5.style.backgroundColor = "Green"; 
+}
+
 
 
 // const att = document.createAttribute("on");
