@@ -1,4 +1,4 @@
-const trr = [12, 4, 27, 18, 11, 20, 24];
+let trr = [12, 4, 27, 18, 11, 20, 24];
 
 console.log("Using forEach function")
 trr.forEach(function(x){
