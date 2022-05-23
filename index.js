@@ -101,6 +101,9 @@ function myFunction() {
         divTag5.style.backgroundColor = "Green"; 
 }
 
+btn.style.padding = "15px";
+divTag5.setAttribute("class", "center");
+
 
 
 // const att = document.createAttribute("on");
