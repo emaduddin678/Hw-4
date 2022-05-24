@@ -99,7 +99,11 @@ btn.setAttribute("onclick", "myFunction();");
 
 function myFunction() {
         divTag5.style.backgroundColor = "Green"; 
+        pTag5.style.color = "white";
+        // pTag5.style.fontFamily = "roboto";
+        divTag5.style.border = "10px solid red";
 }
+
 
 btn.style.padding = "15px";
 divTag5.setAttribute("class", "center");
